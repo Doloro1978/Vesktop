@@ -22,6 +22,16 @@ index 389b0845256a34b4536d6da99edb00d17f13a6b4..f17a0ac687e9110ebfd33cb91fd2f625
 +    name: "OBS"
 +  }
 +);
- 
++DetectableDB.push(
++  {
++    aliases: ["Deadlock"],
++    executables: [
++      { is_launcher: false, name: "win64/deadlock.exe", os: "win32" },
++    ],
++    hook: true,
++    id: "1276737795012165766",
++    name: "Deadlock"
++  }
++);
  import * as Natives from './native/index.js';
  const Native = Natives[process.platform];
